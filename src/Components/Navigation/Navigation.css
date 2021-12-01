@@ -12,11 +12,24 @@
     color: #c4cfde;
     border-bottom: 2px solid transparent;
     margin: 0px 4px;
+    position: relative;
     transition: all 0.6s ease-in;
 }
+.navItemStyle::after{
+    content: '';
+    position: absolute;
+    background-color: #ff014f;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -2px;
+    transition: 0.4s;
+}
 .navItemStyle:hover{
-    color: White;
-    border-bottom: 2px solid #ff014f;
+    color: #ffffff;
+}
+.navItemStyle:hover:after{
+    width: 100%;
 }
 .btn-resume{
     border: none;

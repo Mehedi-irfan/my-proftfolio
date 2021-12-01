@@ -1,0 +1,85 @@
+.fristHeading{
+    color: #c4cfde;
+    text-align: start;
+}
+.fristHeading_p_text{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+}
+.fristHeading h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+.titleName{
+    color : #ff014f;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.img_background{
+    box-shadow: 10px 20px 50px rgba(124, 122, 122, 0.198);
+    position: relative;
+    border-radius: 20px;
+    border: 4px solid #ff014f;
+    height: 550px;
+    transition: all 0.6s ease-in;
+}
+.img_background:hover{
+    box-shadow: none;
+    border: 4px solid gold;
+}
+.img_background img{
+    position: relative;
+    top: -70px;
+}
+.title-desc{
+    color: #c4cfde;
+    font-size: 18px;
+    letter-spacing: 1px;
+    opacity: 0.9;
+    line-height: 30px;
+    font-weight: 400;
+}
+.find_with_me_text{
+    color: #c4cfde;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    text-align: start;
+    position: relative;
+}
+.find_with_me_text::before{
+    content: '';
+    height: 5px;
+    width: 50px;
+    border-bottom: 4px solid #ff014f;
+    top: 12px;
+    left: 160px;
+    position: absolute;
+}
+.icon_li{
+    color: #c4cfde;
+    background: linear-gradient(145deg, #1e2024, #23242b);
+    box-shadow: 20px 20px 39px #323436;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: all 0.4s ease-in;
+}
+.icon_li:hover{
+    transform: translateY(-4px);
+}
+.iconBar{
+    color: #fff;
+    font-size: 1.4em;
+    padding: 2px;
+    transition: all 0.4s ease-in;
+}
+.iconBar:hover{
+    color: #ff014f;
+}

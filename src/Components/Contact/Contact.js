@@ -1,8 +1,20 @@
 import React from 'react';
 import './Contact.css';
+import emailjs from 'emailjs-com';
 import myImg from '../../images/20191106091849_IMG_1222-removebg-preview (1).png'
 
 const Contact = () => {
+    const sendEmail = e => {
+        e.preventDefault();
+        emailjs.sendForm('service_v6113au', 'template_fawkeil', e.target, 'user_8l20h8WITtZ02Yx20Q36j')
+        .then(res => {
+            console.log(res);
+            e.target.reset();
+        })
+        .catch(err => {
+            console.log(err);
+        })
+    }
     return (
         <div style={{width: '95%', margin : '0 auto', padding : '80px 0'}}>
             <div data-aos='zoom-in'>
@@ -35,26 +47,26 @@ const Contact = () => {
                 </div>
                 <div className="col-lg-8">
                     <div style={{paddingBottom : '120px'}} data-aos='fade-up'>
-                        <form className='form-control text-start contactForm' style={{marginTop: '50px'}}>
+                        <form onSubmit={sendEmail} className='form-control text-start contactForm' style={{marginTop: '50px'}}>
                             <lebel  className='label_name'>Name</lebel>
                             <br />
-                            <input className='form-control' type="text" placeholder='Enter Your Name' />
+                            <input className='form-control' name='name' type="text" placeholder='Enter Your Name' />
                             <br />
                             <lebel  className='label_name'>Phone</lebel>
                             <br />
-                            <input className='form-control' type="number" placeholder='Enter Your Number' />
+                            <input className='form-control' type="number" name='number' placeholder='Enter Your Number' />
                             <br />
                             <lebel  className='label_name'>Email</lebel>
                             <br />
-                            <input className='form-control' type="email" name="" placeholder='Enter Your Email' id="" />
+                            <input className='form-control' type="email" name="user_email" placeholder='Enter Your Email' id="" />
                             <br />
                             <label  className='label_name'>Subject</label>
                             <br />
-                            <input className='form-control' type="text" placeholder='Enter Your Subject' />
+                            <input className='form-control' type="text" name='subject' placeholder='Enter Your Subject' />
                             <br />
                             <label  className='label_name'>Message</label>
                             <br />
-                            <textarea className='form-control textarea' name="" placeholder='Enter Your Message' id=""  rows="5"></textarea>
+                            <textarea className='form-control textarea' name="message" placeholder='Enter Your Message' id=""  rows="5"></textarea>
                             <input className='sendMessage_btn' type="submit" value="SEND MESSAGE" />
                         </form>
                     </div>

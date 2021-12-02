@@ -7,11 +7,10 @@ const HeaderBanner = () => {
     return (
         <div className='row d-flex justify-content-center align-items-center' style={{width: '95%', margin : '0 auto', padding: '100px 0'}}>
             <div className="col-lg-7">
-               <div className='fristHeading'>
+               <div className='fristHeading'  data-aos="fade-right">
                 <p className='fristHeading_p_text'>WELCOME TO MY WORLD</p>
                 <h1>Hi, I’m <span className='titleName'>Mehedi Hasan</span></h1>
                 <h1>a <span className="typicaltext" style={{fontSize : '50px'}}>
-                    {" "}
                     <Typical
                         loop={Infinity}
                         wrapper="b"
@@ -37,7 +36,7 @@ const HeaderBanner = () => {
                </div>
             </div>
             <div className="col-lg-5">
-                <div className='img_background'>
+                <div className='img_background' data-aos='fade-down'>
                     <img src={BanngerImg2} width='60%' alt='' />
                 </div>
             </div>

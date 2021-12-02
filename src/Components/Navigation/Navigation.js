@@ -38,7 +38,7 @@ const Navigation = () => {
                     <a class="nav-link navItemStyle" href="/contact">CONTACT</a>
                     </li>
                     <li class="nav-item mx-2">
-                    <a class=" btn-resume" href="https://drive.google.com/file/d/1Dvbv8VvheZVw4d7Q-xUWeEOlK549ExaM/view?usp=sharing">RESUME <i class="fas fa-cloud-download-alt"></i></a>
+                    <a class=" btn-resume" href="https://drive.google.com/file/d/1r6Q6CEQhCxQjDU1IMjJD4YRuiwPse6HY/view?usp=sharing">RESUME <i class="fas fa-cloud-download-alt"></i></a>
                     </li>
                 </ul>
                 </div>

@@ -5,13 +5,13 @@ import myImg from '../../images/20191106091849_IMG_1222-removebg-preview (1).png
 const Contact = () => {
     return (
         <div style={{width: '95%', margin : '0 auto', padding : '80px 0'}}>
-            <div >
+            <div data-aos='zoom-in'>
                 <p className='protfolio_text_p'>CONTACT</p>
                 <h1 className='section-title' id='contectMe'>Contact With Me</h1>
             </div>
             <div className="row">
                 <div className="col-lg-4">
-                    <div className='features_container'>
+                    <div className='features_container' data-aos='fade-up'>
                         <div className='contactImg_container'>
                             <img src={myImg} width='50%' alt="" />
                         </div>
@@ -26,15 +26,15 @@ const Contact = () => {
                         <div style={{marginTop :'50px'}}>
                             <p className='find_with_me_text'>FIND WITH ME</p>
                             <ul className='list-unstyled d-flex align-items-center text-start'>
-                                <li className='icon_li'><i class="fab fa-facebook-f iconBar"></i></li>
-                                <li className='icon_li ms-4'><i class="fab fa-instagram iconBar"></i></li>
-                                <li className='icon_li ms-4'><i class="fab fa-linkedin-in iconBar"></i></li>
+                            <li className='icon_li'><a href="https://web.facebook.com/mehedihasanirfann/"><i class="fab fa-facebook-f iconBar"></i></a> </li>
+                            <li className='icon_li ms-4'><i class="fab fa-instagram iconBar"></i></li>
+                            <li className='icon_li ms-4'><a href="https://www.linkedin.com/in/md-mehedi-hasan-16b412213/"> <i class="fab fa-linkedin-in iconBar"></i></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div className="col-lg-8">
-                    <div style={{paddingBottom : '120px'}}>
+                    <div style={{paddingBottom : '120px'}} data-aos='fade-up'>
                         <form className='form-control text-start contactForm' style={{marginTop: '50px'}}>
                             <lebel  className='label_name'>Name</lebel>
                             <br />
@@ -54,7 +54,7 @@ const Contact = () => {
                             <br />
                             <label  className='label_name'>Message</label>
                             <br />
-                            <textarea className='form-control textarea' name="" placeholder='Enter Your Message' id=""  rows="10"></textarea>
+                            <textarea className='form-control textarea' name="" placeholder='Enter Your Message' id=""  rows="5"></textarea>
                             <input className='sendMessage_btn' type="submit" value="SEND MESSAGE" />
                         </form>
                     </div>

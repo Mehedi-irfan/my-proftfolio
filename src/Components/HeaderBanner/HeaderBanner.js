@@ -5,7 +5,7 @@ import Typical from 'react-typical';
 
 const HeaderBanner = () => {
     return (
-        <div className='row d-flex justify-content-center align-items-center' style={{width: '95%', margin : '0 auto', padding: '100px 0'}}>
+        <div className='row d-flex justify-content-center align-items-center ' style={{width: '95%', margin : '0 auto', padding: '100px 0'}}>
             <div className="col-lg-7">
                <div className='fristHeading'  data-aos="fade-right">
                 <p className='fristHeading_p_text'>WELCOME TO MY WORLD</p>
@@ -29,9 +29,9 @@ const HeaderBanner = () => {
                <div style={{marginTop :'180px'}}>
                    <p className='find_with_me_text'>FIND WITH ME</p>
                    <ul className='list-unstyled d-flex align-items-center text-start'>
-                       <li className='icon_li'><i class="fab fa-facebook-f iconBar"></i></li>
+                       <li className='icon_li'><a href="https://web.facebook.com/mehedihasanirfann/"><i class="fab fa-facebook-f iconBar"></i></a> </li>
                        <li className='icon_li ms-4'><i class="fab fa-instagram iconBar"></i></li>
-                       <li className='icon_li ms-4'><i class="fab fa-linkedin-in iconBar"></i></li>
+                       <li className='icon_li ms-4'><a href="https://www.linkedin.com/in/md-mehedi-hasan-16b412213/"> <i class="fab fa-linkedin-in iconBar"></i></a></li>
                    </ul>
                </div>
             </div>

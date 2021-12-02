@@ -1,0 +1,104 @@
+#eduSkil{
+    position: relative;
+    margin-bottom: 60px;
+}
+#eduSkil::before{
+    content: '';
+    position: absolute;
+    background-color: #ff014f;
+    height: 5px;
+    width: 100px;
+    left: 100px;
+    top: 45px;
+}
+#eduSkil::after{
+    content: '';
+    position: absolute;
+    background-color: #ff014f;
+    height: 5px;
+    width: 100px;
+    right: 100px;
+    top: 45px;
+}
+.edu_container{
+    color: white;
+    text-align: start;
+    margin-top: 50px;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 15px 20px 50px #2f3036c2;
+    padding: 20px 25px;
+}
+.edu_container h5{
+    color: #c4cfde;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+.edu_container h4{
+    letter-spacing: 0.5px;
+    padding: 8px 0px;
+}
+.edu_container h6{
+    color: #ff014dd5;
+    letter-spacing: 2px;
+}
+.edu_container p{
+    color: #c4cfde;
+    letter-spacing: 2px;
+    padding: 10px 0;
+}
+.skill_container{
+    color: white;
+    text-align: start;
+    margin-top: 50px;
+}
+.skill_title{
+    font-weight: 700;
+    letter-spacing: 8px;
+    color: #c4cfde;
+    position: relative;
+}
+.skill_title::after{
+    content: '';
+    position: absolute;
+    background: #ff014f;
+    height: 3px;
+    width: 50px;
+    bottom: 8px;
+    left: 120px;
+}
+.skill_container h4{
+    margin-top: 30px;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 15px;
+}
+.skill_container h4::after{
+    content: '';
+    position: absolute;
+    background: #ff014f;
+    height: 3px;
+    width: 100px;
+    left: 0;
+    bottom: 0px;
+}
+
+.skill_container h4::before{
+    content: '';
+    position: absolute;
+    background: #ff014f;
+    height: 10px;
+    width: 50px;
+    left: 25px;
+    bottom: -4px;
+}
+.sklii_text{
+    letter-spacing: 1px;
+    color: #c4cfde;
+}
+.prograss_bar{
+    margin: 5px 0px
+}
+.progressBar{
+    background: #ff014f;
+    height: 100%;
+}

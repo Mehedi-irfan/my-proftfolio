@@ -48,3 +48,8 @@
     color: #ff014f;
     box-shadow: 10px 10px 20px rgb(54, 54, 54);
 }
+@media only screen and (max-width: 668px) {
+    .navIcon{
+        color: White !important;
+    }
+}

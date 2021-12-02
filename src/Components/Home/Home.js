@@ -6,6 +6,7 @@ import Footer from '../Footer/Footer';
 import HeaderBanner from '../HeaderBanner/HeaderBanner';
 import Navigation from '../Navigation/Navigation';
 import Protfolio from '../Protfolio/Protfolio';
+import Resume from '../Resume/Resume';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Features></Features>
             <About></About>
             <Protfolio></Protfolio>
+            <Resume></Resume>
             <Contact></Contact>
             <Footer></Footer>
         </div>

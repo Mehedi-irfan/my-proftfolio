@@ -13,10 +13,11 @@
     font-weight: 500;
     letter-spacing: 1px;
 }
-.protfolio_info p{
+.protfolio_info h6{
     color: #c4cfde;
-    letter-spacing: 0.8px;
+    letter-spacing: 1.2px;
     text-align: justify;
+    padding: 10px 0px;
     line-height: 25px;
 }
 .protfilo_btn button{

@@ -42,11 +42,12 @@ const Protfolio = () => {
                        </div>
                         <div className='protfolio_info'>
                             <span>MERN Stack Project</span>
-                            <p>Tour based website where users can find best packages
+                            {/* <p>Tour based website where users can find best packages
                             offered by vaction tour and can book their reservation trip.Users can book any room and that will be stored in the
                             database. And if the user wants, he can also see all order
                             bookings, Also users can add new services, manage all orders.Users can add more product and users can product deleted
-                            and updated</p>
+                            and updated</p> */}
+                            <h6>This is vaction travel related website. People can take any type of package. If people register on website. This is site data came from database</h6>
                         </div>
                         <div className='protfilo_btn'>
                             <button><a href="https://vacation-travel.netlify.app/">LIVE SITE</a> <i class="fas fa-share-square"></i></button>
@@ -145,11 +146,12 @@ const Protfolio = () => {
                        </div>
                         <div className='protfolio_info'>
                             <span>MERN Stack Project</span>
-                            <p>Authentication System added (user and admin)
+                            {/* <p>Authentication System added (user and admin)
                             User can order cars, write review and these will be stored in the
                             database. And if the user wants , he can also delete orders.
                             Admin can add products, manage all products, manage all orders
-                            and also make admin too. when user services details click then user can see more details about services</p>
+                            and also make admin too. when user services details click then user can see more details about services</p> */}
+                            <h6>This is Online Car selling related website. If user register than user buy any types of car. This site data came from database. </h6>
                         </div>
                         <div className='protfilo_btn'>
                             <button><a href="https://car-store-website.netlify.app/">LIVE SITE</a> <i class="fas fa-share-square"></i></button>
@@ -167,11 +169,11 @@ const Protfolio = () => {
                                 <div class="modal-body">
                                     {/* slider  */}
 
-                                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                    <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-indicators">
-                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                     </div>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
@@ -185,11 +187,11 @@ const Protfolio = () => {
                                         </div>
                                     </div>
                                     
-                                    <a class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                    <a class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Previous</span>
                                     </a>
-                                    <a class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                    <a class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
                                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Next</span>
                                     </a>
@@ -205,12 +207,14 @@ const Protfolio = () => {
                                     </div>
                                     <div>
                                         <ul className='text-white text-start fs-5'>
-                                            <li>This is a travel website</li>
-                                            <li>This is single Page application</li>
+                                            <li>This is car showroom website</li>
+                                            <li>This is single page application</li>
                                             <li>This website is fully responsive</li>
                                             <li>This website use mongodb and express</li>
                                             <li>This website have authentication system with firebase</li>
-                                            <li>user when visted the website he can see mony services</li>
+                                            <li>user when visted the website he can see many services</li>
+                                            <li>This website have Admin or user panel</li>
+                                            <li>This website have Dashboard</li>
                                         </ul>
                                     </div>
                                     <div className='text-white text-start'>
@@ -246,9 +250,10 @@ const Protfolio = () => {
                        </div>
                         <div className='protfolio_info'>
                             <span>Front-End Project</span>
-                            <p>Eye hospital related website
+                            {/* <p>Eye hospital related website
                             User can buy many types of services for her and his eye
-                            Users can added more services and doctor.Authentication stystem added. User can login or register. If your register than user can login. when user services details click then user can see more details about services</p>
+                            Users can added more services and doctor.Authentication stystem added. User can login or register. If your register than user can login. when user services details click then user can see more details about services</p> */}
+                            <h6>This is Eye Care Related website. This site have many types of eye care services. If user register than user can take services.</h6>
                         </div>
                         <div className='protfilo_btn'>
                             <button><a href="https://critical-eye-care-hospital.netlify.app/">LIVE SITE</a> <i class="fas fa-share-square"></i></button>
@@ -267,11 +272,11 @@ const Protfolio = () => {
                                 <div class="modal-body">
                                     {/* slider  */}
 
-                                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                    <div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-indicators">
-                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                     </div>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
@@ -285,11 +290,11 @@ const Protfolio = () => {
                                         </div>
                                     </div>
                                     
-                                    <a class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                    <a class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Previous</span>
                                     </a>
-                                    <a class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                    <a class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
                                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Next</span>
                                     </a>
@@ -303,12 +308,13 @@ const Protfolio = () => {
                                     </div>
                                     <div>
                                         <ul className='text-white text-start fs-5'>
-                                            <li>This is a travel website</li>
-                                            <li>This is single Page application</li>
+                                            <li>This Is eye care related website</li>
+                                            <li>This is single page Application</li>
                                             <li>This website is fully responsive</li>
-                                            <li>This website use mongodb and express</li>
-                                            <li>This website have authentication system with firebase</li>
-                                            <li>user when visted the website he can see mony services</li>
+                                            <li>Here is the managed data by context api</li>
+                                            <li>This site have authentication system with firebase</li>
+                                            <li>User when visited the website he can see service of hospital</li>
+                                            <li>User can see hospital Latest Blog</li>
                                         </ul>
                                     </div>
                                     <div className='text-white text-start'>
@@ -347,7 +353,8 @@ const Protfolio = () => {
                        </div>
                         <div className='protfolio_info'>
                             <span>Front-End Project</span>
-                            <p>Study related website. there is many types of study services. users can buy a service. there is user private route.when users login then user see service details.this site have a blog.user can read blog.there many types of blog. there was a many typs of services.</p>
+                            {/* <p>Study related website. there is many types of study services. users can buy a service. there is user private route.when users login then user see service details.this site have a blog.user can read blog.there many types of blog. there was a many typs of services.</p> */}
+                            <h6>This is Study Related Website. This site data came from fakeData.User can buy any product.</h6>
                         </div>
                         <div className='protfilo_btn'>
                             <button><a href="https://study-point-irfan.netlify.app/">LIVE SITE</a> <i class="fas fa-share-square"></i></button>
@@ -366,11 +373,11 @@ const Protfolio = () => {
                                 <div class="modal-body">
                                     {/* slider  */}
 
-                                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                    <div id="carouselExampleIndicators4" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-indicators">
-                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                     </div>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
@@ -384,11 +391,11 @@ const Protfolio = () => {
                                         </div>
                                     </div>
                                     
-                                    <a class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                    <a class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="prev">
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Previous</span>
                                     </a>
-                                    <a class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                    <a class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="next">
                                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Next</span>
                                     </a>
@@ -400,12 +407,12 @@ const Protfolio = () => {
                                     </div>
                                     <div>
                                         <ul className='text-white text-start fs-5'>
-                                            <li>This is a travel website</li>
+                                            <li>This is a Study related website</li>
                                             <li>This is single Page application</li>
                                             <li>This website is fully responsive</li>
-                                            <li>This website use mongodb and express</li>
-                                            <li>This website have authentication system with firebase</li>
-                                            <li>user when visted the website he can see mony services</li>
+                                            <li>This website data come from fake data</li>
+                                            <li>This website have many type of study services</li>
+                                            <li>This website have many typs of blogs</li>
                                         </ul>
                                     </div>
                                     <div className='text-white text-start'>
@@ -442,8 +449,9 @@ const Protfolio = () => {
                        </div>
                         <div className='protfolio_info'>
                             <span>Front-End Project</span>
-                            <p>This is E-commerce site.this site have many product.This site have login sytem. If user login in site then user can buy any product. this site have many types of product. user can buy many product at a time. This Site data come from fake data.This site have Authentication system.
-                            </p>
+                            {/* <p>This is E-commerce site.this site have many product.This site have login sytem. If user login in site then user can buy any product. this site have many types of product. user can buy many product at a time. This Site data come from fake data.This site have Authentication system.
+                            </p> */}
+                            <h6>This is E-commerce related Website.This website have many types of Product.Any one can buy the products.</h6>
                         </div>
                         <div className='protfilo_btn'>
                             <button><a href="https://kind-euclid-4b9c25.netlify.app/">LIVE SITE</a> <i class="fas fa-share-square"></i></button>
@@ -462,11 +470,11 @@ const Protfolio = () => {
                                 <div class="modal-body">
                                     {/* slider  */}
 
-                                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                                    <div id="carouselExampleIndicators5" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-indicators">
-                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                     </div>
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
@@ -480,11 +488,11 @@ const Protfolio = () => {
                                         </div>
                                     </div>
                                     
-                                    <a class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                    <a class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide="prev">
                                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Previous</span>
                                     </a>
-                                    <a class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                    <a class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide="next">
                                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="visually-hidden">Next</span>
                                     </a>
@@ -497,12 +505,12 @@ const Protfolio = () => {
                                     </div>
                                     <div>
                                         <ul className='text-white text-start fs-5'>
-                                            <li>This is a travel website</li>
+                                            <li>This is a E-commerce website</li>
                                             <li>This is single Page application</li>
                                             <li>This website is fully responsive</li>
-                                            <li>This website use mongodb and express</li>
+                                            <li>This website data come from fakeData</li>
                                             <li>This website have authentication system with firebase</li>
-                                            <li>user when visted the website he can see mony services</li>
+                                            <li>This website have many typs of products.</li>
                                         </ul>
                                     </div>
                                     <div className='text-white text-start'>

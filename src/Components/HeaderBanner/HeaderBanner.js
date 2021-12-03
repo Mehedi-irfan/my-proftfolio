@@ -5,7 +5,7 @@ import Typical from 'react-typical';
 
 const HeaderBanner = () => {
     return (
-        <div className='row d-flex justify-content-center align-items-center headerContainer' style={{width: '95%', margin : '0 auto', padding: '100px 0'}}>
+        <div className='row d-flex justify-content-center align-items-center headerContainer' style={{width: '95%', margin : '0 auto', padding: '100px 0', marginTop : '100px'}}>
             <div className="col-lg-7">
                <div className='fristHeading'  data-aos="fade-right">
                 <p className='fristHeading_p_text'>WELCOME TO MY WORLD</p>

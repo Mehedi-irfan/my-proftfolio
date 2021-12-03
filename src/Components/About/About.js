@@ -5,14 +5,14 @@ import Typical from 'react-typical';
 
 const About = () => {
     return (
-        <div style={{width: '95%', margin : '0 auto', padding : '80px 0'}}>
+        <div id='about' style={{width: '95%', margin : '0 auto', padding : '80px 0'}}>
             <div>
                 <h1 className='section-title' id='aboutMe' data-aos='zoom-in'>ABOUT ME</h1>
             </div>
             <div className='about_container' data-aos='fade-up'>
                 <span><i class="fas fa-quote-left about_icon"></i></span>
                 <h1 className='text-start aboutTitle_h1'>Hi, I’m <span className='aboutTitle'>Mehedi Hasan</span></h1>
-                <h1 className='typicaltext'>I am a <span className="typicaltext_span" style={{fontSize : '40px'}}>
+                <h1 className='typicaltext'>I am a <span className="typicaltext_span">
                     {''}
                     <Typical
                         loop={Infinity}

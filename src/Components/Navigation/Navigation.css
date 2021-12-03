@@ -8,6 +8,9 @@
     position: relative;
     top : 7px;
 }
+.logo_title{
+    font-size: 45px;
+}
 .navItemStyle{
     color: #c4cfde;
     border-bottom: 2px solid transparent;
@@ -49,7 +52,12 @@
     box-shadow: 10px 10px 20px rgb(54, 54, 54);
 }
 @media only screen and (max-width: 668px) {
-    .navIcon{
-        color: White !important;
+    .logo_title{
+        font-size: 25px;
+    }
+    .logoName{
+        letter-spacing: 2px;
+        font-size: 14px;
+        font-weight: 700;
     }
 }

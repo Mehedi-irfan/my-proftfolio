@@ -23,10 +23,10 @@ import emaJohnSS3 from '../../images/ema-john_ss/Screenshot (42).png';
 
 const Protfolio = () => {
     return (
-        <div style={{width: '95%', margin : '0 auto', padding : '80px 0'}}>
+        <div id='protfolio' style={{width: '95%', margin : '0 auto', padding : '80px 0'}}>
             <div data-aos='zoom-in'>
                 <p className='protfolio_text_p'>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</p>
-                <h1 className='section-title' id='aboutMe'>My Portfolio</h1>
+                <h1 className='section-title' id='protfolioTitle'>My Portfolio</h1>
             </div>
             <div className="row">
                 <div className="col-lg-4">
@@ -95,7 +95,7 @@ const Protfolio = () => {
                                         <div>
                                         <div className='protfolio_info'>
                                             <span>MERN Stack Project</span>
-                                            <p>Tour based website where users can find best packages
+                                            <p className='modal_text_p'>Tour based website where users can find best packages
                                             offered by vaction tour and can book their reservation trip.Users can book any room and that will be stored in the
                                             database. And if the user wants, he can also see all order
                                             bookings, Also users can add new services, manage all orders.Users can add more product and users can product deleted
@@ -199,7 +199,7 @@ const Protfolio = () => {
                                     <div>
                                     <div className='protfolio_info'>
                                     <span>MERN Stack Project</span>
-                                    <p>Authentication System added (user and admin)
+                                    <p className='modal_text_p'>Authentication System added (user and admin)
                                     User can order cars, write review and these will be stored in the
                                     database. And if the user wants , he can also delete orders.
                                     Admin can add products, manage all products, manage all orders
@@ -302,7 +302,7 @@ const Protfolio = () => {
                                     <div>
                                     <div className='protfolio_info'>
                                     <span>Front-End Project</span>
-                                    <p>Eye hospital related website
+                                    <p className='modal_text_p'>Eye hospital related website
                                     User can buy many types of services for her and his eye
                                     Users can added more services and doctor.Authentication stystem added. User can login or register. If your register than user can login. when user services details click then user can see more details about services</p>
                                     </div>
@@ -403,7 +403,7 @@ const Protfolio = () => {
                                     <div>
                                     <div className='protfolio_info'>
                                     <span>Front-End Project</span>
-                                    <p>Study related website. there is many types of study services. users can buy a service. there is user private route.when users login then user see service details.this site have a blog.user can read blog.there many types of blog. there was a many typs of services.</p>
+                                    <p className='modal_text_p'>Study related website. there is many types of study services. users can buy a service. there is user private route.when users login then user see service details.this site have a blog.user can read blog.there many types of blog. there was a many typs of services.</p>
                                     </div>
                                     <div>
                                         <ul className='text-white text-start fs-5'>
@@ -500,7 +500,7 @@ const Protfolio = () => {
                                     <div>
                                     <div className='protfolio_info'>
                                     <span>Front-End Project</span>
-                                    <p>This is E-commerce site.this site have many product.This site have login sytem. If user login in site then user can buy any product. this site have many types of product. user can buy many product at a time. This Site data come from fake data.This site have Authentication system.
+                                    <p className='modal_text_p'>This is E-commerce site.this site have many product.This site have login sytem. If user login in site then user can buy any product. this site have many types of product. user can buy many product at a time. This Site data come from fake data.This site have Authentication system.
                                     </p>
                                     </div>
                                     <div>

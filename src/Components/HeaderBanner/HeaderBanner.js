@@ -5,12 +5,12 @@ import Typical from 'react-typical';
 
 const HeaderBanner = () => {
     return (
-        <div className='row d-flex justify-content-center align-items-center ' style={{width: '95%', margin : '0 auto', padding: '100px 0'}}>
+        <div className='row d-flex justify-content-center align-items-center headerContainer' style={{width: '95%', margin : '0 auto', padding: '100px 0'}}>
             <div className="col-lg-7">
                <div className='fristHeading'  data-aos="fade-right">
                 <p className='fristHeading_p_text'>WELCOME TO MY WORLD</p>
                 <h1>Hi, I’m <span className='titleName'>Mehedi Hasan</span></h1>
-                <h1>a <span className="typicaltext" style={{fontSize : '50px'}}>
+                <h1>a <span className="typicaltext">
                     <Typical
                         loop={Infinity}
                         wrapper="b"
@@ -26,7 +26,7 @@ const HeaderBanner = () => {
                     </span></h1>
                     <p className='title-desc'>I am Front-End Developer and aslo a MERN Stack Developer .I Have Worked on  multiple MERN Stack Projects.I devoted my full attention to designing and Building websites. Now I am Constantly Learn....</p>
                </div>
-               <div style={{marginTop :'180px'}}>
+               <div className='socaiMedia_container'>
                    <p className='find_with_me_text'>FIND WITH ME</p>
                    <ul className='list-unstyled d-flex align-items-center text-start'>
                        <li className='icon_li'><a href="https://web.facebook.com/mehedihasanirfann/"><i class="fab fa-facebook-f iconBar"></i></a> </li>

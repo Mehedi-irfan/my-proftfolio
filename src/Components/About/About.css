@@ -55,3 +55,26 @@
     right: 80px;
     font-size: 120px;
 }
+@media only screen and (max-width:668px) {
+    #aboutMe::before{
+        height: 4px;
+        width: 50px;
+        left: 310px;
+        top: 30px;
+    }
+    #aboutMe::after{
+        height: 4px;
+        width: 50px;
+        right: 310px;
+        top: 30px;
+    }
+    .about_desc{
+        font-size: 1.1em;
+        text-align: justify;
+    }
+    .about_icon{
+        top: -40px;
+        right: 20px;
+        font-size: 80px;
+    }
+}

@@ -58,3 +58,16 @@
 .feature_text_container:hover{
     transform: translateY(-10px);
 }
+@media only screen and (max-width : 668px) {
+    .features_text_p{
+        font-size: 1.1em;
+    }
+    .features_text_p::before{
+        width: 40px;
+        left: 100px;
+        top: 14px;
+    }
+    .section-title{
+        font-size: 45px;
+    }
+}

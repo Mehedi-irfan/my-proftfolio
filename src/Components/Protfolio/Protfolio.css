@@ -4,6 +4,28 @@
     letter-spacing: 2px;
     font-size: 1.2em;
 }
+#protfolioTitle{
+    position: relative;
+    margin-bottom: 60px;
+}
+#protfolioTitle::before{
+    content: '';
+    position: absolute;
+    background-color: #ff014f;
+    height: 5px;
+    width: 100px;
+    left: 300px;
+    top: 45px;
+}
+#protfolioTitle::after{
+    content: '';
+    position: absolute;
+    background-color: #ff014f;
+    height: 5px;
+    width: 100px;
+    right: 300px;
+    top: 45px;
+}
 .protfolio_info{
     text-align: start;
     padding: 12px 0px;
@@ -89,4 +111,25 @@
     font-size: 1.8em;
     letter-spacing: 3px;
     margin: 0 auto;
+}
+.modal_text_p{
+    color: #c4cfde;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+}
+@media only screen and (max-width:668px) {
+    .protfolio_text_p{
+        font-size: 1em;
+    }
+    .protfilo_btn button{
+        letter-spacing: 0.5px;
+        margin: 0px 5px;
+        padding: 6px 10px;
+    }
+    #protfolioTitle::before{
+        display: none;
+    }
+    #protfolioTitle::after{
+        display: none;
+    }
 }

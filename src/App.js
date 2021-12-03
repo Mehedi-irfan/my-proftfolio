@@ -1,9 +1,6 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Home from './Components/Home/Home';
-import About from './Components/About/About'
-import Features from './Components/Features/Features'
-import SeeDetails from './Components/SeeDetails/SeeDetails';
 
 function App() {
   return (
@@ -16,9 +13,6 @@ function App() {
           <Route path='/home'>
               <Home></Home>
           </Route>
-          {/* <Route path='/seeDetails/:projectId'>
-            <SeeDetails></SeeDetails>
-          </Route> */}
          </Switch>
       </Router>
     </div>

@@ -2,7 +2,7 @@ import React from 'react';
 import './Features.css';
 const Features = () => {
     return (
-        <div className='text-start' style={{width : '95%', margin : '0 auto', padding : '80px 0'}}>
+        <div id='features' className='text-start' style={{width : '95%', margin : '0 auto', padding : '80px 0'}}>
           <div data-aos='fade-right'>
           <p className='features_text_p'>FEATURES</p>
           <h1 className='section-title'>What I Do</h1>

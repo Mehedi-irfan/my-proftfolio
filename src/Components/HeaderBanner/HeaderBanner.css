@@ -1,3 +1,6 @@
+.headerContainer{
+    margin-top: 100px;
+}
 .fristHeading{
     color: #c4cfde;
     text-align: start;
@@ -82,4 +85,38 @@
 }
 .iconBar:hover{
     color: #ff014f;
+}
+.typicaltext{
+    font-size: 50px;
+}
+.socaiMedia_container{
+    margin-top: 180px;
+}
+@media only screen and (max-width: 668px) {
+    .headerContainer{
+        margin-top: 30px;
+    }
+    .fristHeading_p_text{
+        font-size: 14px;
+    }
+    .fristHeading h1{
+        font-weight: 600;
+        font-size: 32px;
+    }
+    .typicaltext{
+        font-size: 22px;
+    }
+    .title-desc{
+        font-size: 15px;
+    }
+    .socaiMedia_container{
+        margin-top: 80px;
+    }
+    .img_background{
+        height: 350px;
+        margin-top: 50px;
+    }
+    .img_background img{
+        top: -50px;
+    }
 }

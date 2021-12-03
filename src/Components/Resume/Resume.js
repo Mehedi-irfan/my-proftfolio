@@ -6,10 +6,10 @@ import './Resume.css';
 const Resume = () => {
     
     return (
-        <div style={{width: '95%', margin : '0 auto', padding : '80px 0'}}>
+        <div id='resume' style={{width: '95%', margin : '0 auto', padding : '80px 0'}}>
         <div data-aos='zoom-in'>
             <p className='protfolio_text_p'>RESUME</p>
-            <h1 className='section-title' id='eduSkil'>EDUCATIONA AND SKILL</h1>
+            <h1 className='section-title' id='eduSkil'>EDUCATION AND SKILL</h1>
         </div>
         <div className="row" style={{width : '88%', margin : '0 auto'}}>
             <div className="col-lg-6 col-md-6 col-sm-12">

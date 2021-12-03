@@ -10,7 +10,7 @@ import Resume from '../Resume/Resume';
 
 const Home = () => {
     return (
-        <div style={{background : '#212428'}}>
+        <div id='home' style={{background : '#212428'}}>
             <Navigation></Navigation>
             <HeaderBanner></HeaderBanner>
             <Features></Features>

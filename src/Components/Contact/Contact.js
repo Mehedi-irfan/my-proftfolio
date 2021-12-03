@@ -16,7 +16,7 @@ const Contact = () => {
         })
     }
     return (
-        <div style={{width: '95%', margin : '0 auto', padding : '80px 0'}}>
+        <div id='contact' style={{width: '95%', margin : '0 auto', padding : '80px 0'}}>
             <div data-aos='zoom-in'>
                 <p className='protfolio_text_p'>CONTACT</p>
                 <h1 className='section-title' id='contectMe'>Contact With Me</h1>

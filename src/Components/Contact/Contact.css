@@ -62,3 +62,11 @@
     box-shadow: none;
     color: #ffffff;
 }
+@media only screen and (max-width : 668px) {
+    #contectMe::before{
+       display: none;
+    }
+    #contectMe::after{
+        display: none;
+    }
+}

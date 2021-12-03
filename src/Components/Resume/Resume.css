@@ -102,3 +102,11 @@
     background: #ff014f;
     height: 100%;
 }
+@media only screen and (max-width: 668px) {
+    #eduSkil::before{
+        display: none;
+    }
+    #eduSkil::after{
+        display: none;
+    }
+}

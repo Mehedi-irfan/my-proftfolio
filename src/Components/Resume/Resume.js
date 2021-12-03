@@ -35,44 +35,44 @@ const Resume = () => {
                         <h4>FRONT-END </h4>
                            <div className='my-4'>
                                 <span class='sklii_text'>HTML</span>
-                              <div class="progress prograss_bar">
-                                <div class="progress-bar progressBar" role="progressbar" aria-valuenow="30" style={{width : '85%'}} aria-valuemin="25" aria-valuemax="100">
-                                </div>
+                                <div class="progress prograss_bar">
+                                    <div class="progress-bar progressBar" role="progressbar" aria-valuenow="30" style={{width : '85%'}} aria-valuemin="25" aria-valuemax="100">
+                                    </div>
                                 </div>
                                 <span  class='sklii_text'>CSS</span>
                                 <div class="progress prograss_bar">
                                     <div class="progress-bar progressBar" role="progressbar" aria-valuenow="25" style={{width : '80%'}} aria-valuemin="0" aria-valuemax="100">
-                                </div>
+                                    </div>
                                 </div>
                                 <span  class='sklii_text'>JAVASCRIPT</span>
                                 <div class="progress prograss_bar">
                                     <div class="progress-bar progressBar" role="progressbar" aria-valuenow="50"  style={{width : '50%'}} aria-valuemin="0" aria-valuemax="100">
-                                </div>
+                                    </div>
                                 </div>
                                 <span  class='sklii_text'>BOOTSTRAP</span>
                                 <div class="progress prograss_bar">
                                     <div class="progress-bar progressBar" role="progressbar" aria-valuenow="75"  style={{width : '80%'}} aria-valuemin="0" aria-valuemax="100">
-                                </div>
+                                    </div>
                                 </div>
                                 <span  class='sklii_text'>MATERIAL UI</span>
                                 <div class="progress prograss_bar">
                                     <div class="progress-bar progressBar" role="progressbar" aria-valuenow="100"  style={{width : '40%'}} aria-valuemin="0" aria-valuemax="100">
-                                </div>
+                                    </div>
                                 </div>
                                 <span  class='sklii_text'>TAILWIND CSS</span>
                                 <div class="progress prograss_bar">
                                     <div class="progress-bar progressBar" role="progressbar" aria-valuenow="100"  style={{width : '50%'}} aria-valuemin="0" aria-valuemax="100">
-                                </div>
+                                    </div>
                                 </div>
                                 <span  class='sklii_text'>REACT JS</span>
                                 <div class="progress prograss_bar">
                                     <div class="progress-bar progressBar" role="progressbar" aria-valuenow="100"  style={{width : '70%'}} aria-valuemin="0" aria-valuemax="100">
-                                </div>
+                                    </div>
                                 </div>
                                 <span  class='sklii_text'>FIREBASE</span>
                                 <div class="progress prograss_bar">
                                     <div class="progress-bar progressBar" role="progressbar" aria-valuenow="100"  style={{width : '80%'}} aria-valuemin="0" aria-valuemax="100">
-                                </div>
+                                    </div>
                                 </div>
                            </div>
                         <h4>BACK-END </h4>
